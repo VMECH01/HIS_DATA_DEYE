@@ -1,0 +1,315 @@
+{
+  "timestamp": "2025-12-16T10:06:07.103Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "fec2e92693e0c61b",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:07:05.703Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "1ef2ae72f120bce6",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:08:06.210Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "217904e1e198b370",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:09:06.038Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "4cf16e3c737d85c3",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:10:06.587Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "d2c3a398fcc3311b",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:11:05.925Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "418732c00669fa70",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:12:15.265Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "ef96bfc320d9116c",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:13:06.243Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "f8b24027a1289e94",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:14:05.025Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "a30cd8addc034202",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:15:05.897Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "82a3368f50140ddd",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:16:08.338Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "d70b871e2aa0932b",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:17:07.382Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "65e3a9afd8a6393d",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:18:05.512Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "e13b04e5dc4cf740",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:19:07.043Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "98c62afc8a559e25",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
+{
+  "timestamp": "2025-12-16T10:20:07.491Z",
+  "stationId": 61582136,
+  "stationName": "Rajasthan",
+  "devices": [
+    {
+      "deviceSn": "2411204350",
+      "response": {
+        "code": "1000000",
+        "msg": "success",
+        "success": true,
+        "requestId": "7cd2d581ee193daf",
+        "deviceSn": "2411204350",
+        "deviceId": 7080163,
+        "deviceType": "INVERTER",
+        "dataList": []
+      }
+    }
+  ]
+}
+
