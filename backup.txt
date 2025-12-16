@@ -1,0 +1,540 @@
+// ----------------------
+// Deye Cloud Backend Server
+// ----------------------
+
+import express from "express";
+import axios from "axios";
+import dotenv from "dotenv";
+import crypto from "crypto";
+import moment from "moment";
+import fs from 'fs';   
+import pino from 'pino';
+import dayjs  from "dayjs";
+import PinoHttp from "pino-http";
+
+
+dotenv.config();
+
+const app = express();
+app.use(express.json());
+
+const PORT = process.env.PORT || 5001;
+
+// ----------------------
+// Log Config -> for logging 
+// ----------------------
+
+// Simple logging to a file
+fs.appendFileSync('app.log', `[${new Date().toISOString()}] - INFO - This is an informational message for the logs of the errors .\n`);
+
+try {
+  throw new Error("Something went wrong!");
+} catch (error) {
+  // Use error.stack to get the full details and stack trace
+  const logMessage = `[${new Date().toISOString()}] - ERROR - ${error.stack}\n`;
+  fs.appendFileSync('app.log', logMessage);
+}
+
+// Simple logging the response below => custom logic 
+
+// const pino = require('pino');
+
+const logger = pino({
+  level: 'info',
+  transport: {
+    target: 'pino/file',
+    options: { destination: 'request.log' }
+  },
+  timestamp: () => `,"time":"${dayjs().format()}"`
+});   
+
+
+// Middleware to measure and log request duration
+app.use((req, res, next) => {
+  const start = process.hrtime.bigint(); // High-precision start time
+  // Hook into response finish event to log after sending
+  res.on('finish', () => {
+    const end = process.hrtime.bigint();
+    const durationMs = Number(end - start) / 1e6; // Convert nanoseconds to milliseconds
+    logger.info({
+      method: req.method,
+      url: req.url,
+      status: res.statusCode,
+      duration: `${durationMs.toFixed(2)}ms` // Log as a string for readability
+    }, 'Request completed');
+  });
+  next();
+});
+
+
+// ----------------------
+// Deye Cloud Config
+// ----------------------
+
+const {
+  DEYE_BASE_URL,
+  DEYE_APP_ID,
+  DEYE_APP_SECRET,
+  DEYE_EMAIL,
+  DEYE_PASSWORD
+} = process.env;
+
+let accessToken = null;
+let tokenExpiry = 0;
+
+
+// ----------------------
+//  Obtain Access Token
+// ----------------------
+
+async function obtainToken() {
+  try {
+    const hashedPassword = crypto
+      .createHash("sha256")
+      .update(DEYE_PASSWORD)
+      .digest("hex");
+
+    const url = `${DEYE_BASE_URL}/account/token?appId=${DEYE_APP_ID}`;
+    const response = await axios.post(
+      url,
+      {
+        appSecret: DEYE_APP_SECRET,
+        email: DEYE_EMAIL,
+        password: hashedPassword,
+        companyId: "0", // for personal accounts
+      },
+      { headers: { "Content-Type": "application/json" } }
+    );
+
+    if (response.data?.accessToken) {
+      accessToken = response.data.accessToken;
+      tokenExpiry = Date.now() + (response.data.expiresIn || 3600) * 1000;
+      console.log(" Token obtained successfully");
+      console.log(accessToken);
+    } else {
+      console.error(" Failed to get token:", response.data);
+    }
+  } catch (err) {
+    console.error(" Token fetch error:", err.response?.data || err.message);
+  }
+}
+
+// ----------------------
+//  Ensure valid token
+// ----------------------
+
+async function ensureToken() {
+  if (!accessToken || Date.now() > tokenExpiry) {
+    await obtainToken();
+  }
+}
+
+// ----------------------
+//  Helper POST request
+// ----------------------
+
+async function deyePost(endpoint, payload = {}) {
+  await ensureToken();
+
+  const url = `${DEYE_BASE_URL}${endpoint}`;
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${accessToken}`
+  };
+
+  console.log(" Making request to:", url);
+  console.log(" Payload:", JSON.stringify(payload, null, 2));
+  console.log(" Token present:", !!accessToken);
+
+  try {
+    const response = await axios.post(url, payload, {
+      headers,
+      timeout: 10000
+    });
+
+    console.log(" API Response status:", response.status);
+
+    return response.data;
+  } catch (err) {
+    console.error(` Deye API Error [${endpoint}]`);
+    console.error(" Status:", err.response?.status);
+    console.error(" Response Data:", err.response?.data);
+
+    throw err;
+  }
+}
+// ----------------------
+//  API Routes
+// ----------------------
+
+//  Health Check
+app.get("/statusCheck", (req, res) => {
+  logger.info('/statusCheck -> is being called')
+  setTimeout(() => {
+    res.json("Hello");
+  },3000)
+});
+
+//  Get all stations
+app.get("/api/stations", async (req, res) => {
+  logger.info ('/api/stations -> is got called');
+  try {
+    const data = await deyePost("/station/list", {});
+    res.json({ success: true, data: data.data || data.stationList || [] });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      error: err.response?.data || err.message,
+    });
+  }
+});
+
+//  Creating the api for the deye to fectch the voltage
+
+app.post("/api/device/historyRaw", async (req, res) => {
+  try {
+    const { deviceSn, startTimestamp, endTimestamp, measurePoints } = req.body;
+    console.log("📡 Fetching device history raw data for:", deviceSn);
+    if (!deviceSn || !startTimestamp || !endTimestamp || !measurePoints || !Array.isArray(measurePoints)) {
+      return res.status(400).json({
+        success: false,
+        error: "deviceSn, startTimestamp, endTimestamp, and measurePoints (array) are required"
+      });
+    }
+    // Validate timestamps (expect 10-digit Unix seconds, convert to milliseconds)
+    // const startTs = Number(startTimestamp) * 1000;  // Convert seconds to milliseconds
+    // const endTs = Number(endTimestamp) * 1000;      // Convert seconds to milliseconds
+
+    const startTs = Number(startTimestamp) ;  // Convert seconds to milliseconds
+    const endTs = Number(endTimestamp) ;      // Convert seconds to milliseconds
+    if (isNaN(startTs) || isNaN(endTs) || startTs >= endTs) {
+      return res.status(400).json({
+        success: false,
+        error: "Invalid timestamps: startTimestamp must be before endTimestamp (use 10-digit Unix seconds)"
+      });
+    }
+    // Validate range: within 5 days (5 * 24 * 60 * 60 * 1000 = 432000000 ms)
+    const maxRange = 5 * 24 * 60 * 60 * 1000;
+    if (endTs - startTs > maxRange) {
+      return res.status(400).json({
+        success: false,
+        error: "Time range must be within 5 days"
+      });
+    }
+    const payload = {
+      deviceSn,
+      startTimestamp: startTs,
+      endTimestamp: endTs,
+      measurePoints
+    };
+    console.log("📤 History Raw payload:", JSON.stringify(payload, null, 2));
+    const response = await deyePost("/v1.0/device/historyRaw", payload);
+    console.log("📥 Raw history response:", JSON.stringify(response, null, 2));
+    res.status(200).json({
+      success: true,
+      data: response
+    });
+  } catch (err) {
+    console.error("❌ Device History Raw Error:", err.response?.data || err.message);
+    res.status(500).json({
+      success: false,
+      error: err.response?.data?.message || err.message,
+    });
+  }
+});
+
+// this is the for the fecthing the data
+
+// setInterval(() => {
+//   fetch('http://localhost:5000/api/device/historyRaw', {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({
+//     deviceSn: '2306178462',
+//     startTimestamp: 1764288000,  // Adjust
+//     endTimestamp: 1764504000,    // Adjust
+//     measurePoints: ['Battery Voltage', 'Battery SOC']
+//   })
+// })
+// .then(res => res.json())
+// .then(data => console.log(data))
+// .catch(err => console.error(err));
+// }, 3000);  
+
+
+
+// 🟢 Get device by serial number
+app.get("/api/devices/:deviceSn", async (req, res) => {
+  try {
+    const { deviceSn } = req.params;
+    const { stationId } = req.query;
+
+    console.log("📡 Fetching device by SN:", deviceSn);
+
+    if (!deviceSn) {
+      return res.status(400).json({
+        success: false,
+        error: "deviceSn is required"
+      });
+    }
+
+    if (!stationId) {
+      return res.status(400).json({
+        success: false,
+        error: "stationId query parameter is required"
+      });
+    }
+
+    const payload = {
+      page: 1,
+      size: 100, // Large size to ensure we find the device
+      stationIds: [Number(stationId)]
+    };
+
+    const response = await deyePost("/station/device", payload);
+
+    // Find specific device by serial number
+    const device = (response.deviceListItems || []).find(
+      item => item.deviceSn === deviceSn
+    );
+
+    if (!device) {
+      return res.status(404).json({
+        success: false,
+        error: `Device with SN ${deviceSn} not found in station ${stationId}`
+      });
+    }
+
+    // Enhanced device info
+    const enhancedDevice = {
+      ...device,
+      connectStatusText: getConnectStatusText(device.connectStatus),
+      isOnline: device.connectStatus === 1,
+      isOffline: device.connectStatus === 0,
+      isAlert: device.connectStatus === 2,
+      productType: getProductType(device.productId)
+    };
+
+    res.status(200).json({
+      success: true,
+      data: enhancedDevice
+    });
+  } catch (err) {
+    console.error("❌ Device by SN Error:", err.response?.data || err.message);
+    res.status(500).json({
+      success: false,
+      error: err.response?.data?.message || err.message,
+    });
+  }
+});
+
+
+// setInterval(() => {
+//   fetch('http://localhost:5000/api/devices/61195166', {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({
+//     deviceSn: '2306178462',
+//     startTimestamp: 1764288000,  // Adjust
+//     endTimestamp: 1764504000,    // Adjust
+//     measurePoints: ['Battery Voltage', 'Battery SOC']
+//   })
+// })
+// .then(res => res.json())
+// .then(data => console.log(data))
+// .catch(err => console.error(err));
+// }, 3000);  
+
+
+// 🟢 Fetch latest data of devices (batch, up to 10 devices) - GET version
+app.get("/api/device/latest", async (req, res) => {
+  try {
+    const { deviceList } = req.query;
+
+    // Parse deviceList from query string (comma-separated)
+    const devices = deviceList ? deviceList.split(',').map(sn => sn.trim()) : [];
+
+    console.log("📡 Fetching latest device data for:", devices);
+
+    if (!devices || devices.length === 0 || devices.length > 10) {
+      return res.status(400).json({
+        success: false,
+        error: "deviceList query parameter must contain 1 to 10 comma-separated device serial numbers"
+      });
+    }
+
+    const payload = { deviceList: devices };
+
+    console.log("📤 Latest device payload:", JSON.stringify(payload, null, 2));
+    const response = await deyePost("/device/latest", payload);
+    console.log("📥 Latest device response:", JSON.stringify(response, null, 2));
+
+    res.status(200).json({
+      success: true,
+      data: response
+    });
+  } catch (err) {
+    console.error("❌ Device Latest Error:", err.response?.data || err.message);
+    res.status(500).json({
+      success: false,
+      error: err.response?.data?.message || err.message,
+    });
+  }
+});
+// http://localhost:5001/api/device/latest?deviceList=2917760161
+
+
+// ----------------------
+//  Start Server
+// ----------------------
+app.listen(PORT, async () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+  await obtainToken();
+});
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////
+
+
+the new function for the Db
+
+const sql = require('mssql');  // Import the mssql package
+const cron = require('node-cron');  // Assuming you have this for scheduling
+const fs = require('fs');
+const path = require('path');
+// Assuming you have a logger and deyePost function defined elsewhere
+
+// MSSQL connection config (replace with your actual details)
+const dbConfig = {
+  server: 'your-server-name',  // e.g., 'localhost' or 'your-azure-sql-server.database.windows.net'
+  port: 1433,  // Default MSSQL port
+  database: 'DeviceDataDB',
+  user: 'your-username',
+  password: 'your-password',
+  options: {
+    encrypt: true,  // Use for Azure SQL or secure connections
+    trustServerCertificate: true  // For local dev; disable in production
+  }
+};
+
+// Devices array (unchanged)
+const devices = [
+  {
+    deviceSn: "2306178462",
+    measurePoints: ["BatteryVoltage"]
+  },
+  {
+    deviceSn: "2401276187",
+    measurePoints: ["BatteryVoltage"]
+  }
+];
+
+// Function to insert device if it doesn't exist 
+async function insertDeviceIfNotExists(deviceSn, deviceType) {
+  try {
+    const pool = await sql.connect(dbConfig);
+    const result = await pool.request()
+      .input('deviceSn', sql.NVarChar, deviceSn)
+      .input('deviceType', sql.NVarChar, deviceType)
+      .query(`
+        IF NOT EXISTS (SELECT 1 FROM Devices WHERE DeviceSn = @deviceSn)
+        INSERT INTO Devices (DeviceSn, DeviceType) VALUES (@deviceSn, @deviceType)
+      `);
+    await pool.close();
+  } catch (err) {
+    console.error('Error inserting device:', err);
+  }
+}
+
+// Function to insert measurements
+async function insertMeasurements(deviceSn, dataList) {
+  try {
+    const pool = await sql.connect(dbConfig);
+    const transaction = new sql.Transaction(pool);
+    await transaction.begin();
+
+    for (const data of dataList) {
+      const timestamp = parseInt(data.time);  // Ensure it's a number
+      for (const item of data.itemList) {
+        await transaction.request()
+          .input('deviceSn', sql.NVarChar, deviceSn)
+          .input('timestamp', sql.BigInt, timestamp)
+          .input('keyName', sql.NVarChar, item.key)
+          .input('value', sql.NVarChar, item.value)
+          .input('unit', sql.NVarChar, item.unit || null)
+          .query(`
+            INSERT INTO Measurements (DeviceSn, Timestamp, KeyName, Value, Unit)
+            VALUES (@deviceSn, @timestamp, @keyName, @value, @unit)
+          `);
+      }
+    }
+
+    await transaction.commit();
+    await pool.close();
+    console.log(`Inserted ${dataList.length} data points for device ${deviceSn}`);
+  } catch (err) {
+    console.error('Error inserting measurements:', err);
+    // Rollback if needed (transaction will auto-rollback on error)
+  }
+}
+
+// Modified function
+function scheduleDailyDeviceDataFetch(devices) {
+  // Schedule at midnight (unchanged)
+  cron.schedule('0 0 * * *', async () => {
+    try {
+      // Timestamp calculation (unchanged)
+      const now = new Date();
+      const endTimestamp = Math.floor(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 1000);
+      const startTimestamp = endTimestamp - (24 * 60 * 60);
+
+      console.log(`Running Daily fetch at ${new Date().toISOString()}`);
+      console.log(`startTimestamp: ${startTimestamp} (${new Date(startTimestamp * 1000).toISOString()})`);
+      console.log(`endTimestamp: ${endTimestamp} (${new Date(endTimestamp * 1000).toISOString()})`);
+
+      for (const device of devices) {
+        const { deviceSn, measurePoints } = device;
+        const payload = {
+          deviceSn,
+          startTimestamp,
+          endTimestamp,
+          measurePoints
+        };
+
+        logger.info(`Fetching device: ${deviceSn}`);
+        console.log(`Fetching device: ${deviceSn} & measurePoints: ${measurePoints}`);
+
+        // Fetch data (unchanged)
+        const response = await deyePost("/device/historyRaw", payload);
+        console.log(`Successfully fetched ${deviceSn}: ${JSON.stringify(response)}`);
+
+        // Parse response and push to DB
+        if (response && response.success && response.dataList) {
+          const { deviceType } = response;  // From your sample response
+          await insertDeviceIfNotExists(deviceSn, deviceType);
+          await insertMeasurements(deviceSn, response.dataList);
+        }
+
+        // Optional: Still save to file for debugging (unchanged)
+        const filename = `device_${deviceSn}_data_${endTimestamp}.txt`;
+        const filepath = path.join(__dirname, 'logs', filename);
+        const dataToWrite = `Timestamp: ${new Date().toISOString()}\nDevice: ${deviceSn}\nPayload: ${JSON.stringify(payload, null, 2)}\nResponse: ${JSON.stringify(response, null, 2)}\n\n`;
+
+        if (!fs.existsSync(path.join(__dirname, 'logs'))) {
+          fs.mkdirSync(path.join(__dirname, 'logs'), { recursive: true });
+        }
+        fs.appendFileSync(filepath, dataToWrite);
+        console.log(`Response saved to ${filepath}`);
+      }
+    } catch (err) {
+      console.error('Error in daily fetch:', err.response?.data || err.message);
+    }
+  });
+
+  console.log('Daily device data fetch scheduled to run at midnight every day.');
+}
+
+// Call the function (unchanged)
+scheduleDailyDeviceDataFetch(devices);

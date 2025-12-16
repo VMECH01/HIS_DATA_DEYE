@@ -1,0 +1,279 @@
+{"level":"info","message":"Starting daily device data fetch","ms":"+49s","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+2ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+5ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+2ms","timestamp":"2025-12-16 11:20:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:20:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+9ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"API Response status:","ms":"+786ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+80ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+3ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"API Response status:","ms":"+32ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+3ms","timestamp":"2025-12-16 11:20:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+50ms","timestamp":"2025-12-16 11:20:01"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:20:01"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+41ms","timestamp":"2025-12-16 11:20:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+4ms","timestamp":"2025-12-16 11:20:01"}
+{"level":"info","message":"Shutting down gracefully...","ms":"+26s","timestamp":"2025-12-16 11:20:26"}
+{"level":"info","message":"Token obtained successfully","ms":"+0ms","timestamp":"2025-12-16 11:25:33"}
+{"level":"info","message":"Database synced successfully.","ms":"+240ms","timestamp":"2025-12-16 11:25:34"}
+{"level":"info","message":"Daily device data fetch scheduled","ms":"+58ms","timestamp":"2025-12-16 11:25:34"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+26s","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+6ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+1ms","timestamp":"2025-12-16 11:26:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+2ms","timestamp":"2025-12-16 11:26:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+14ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"API Response status:","ms":"+624ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+49ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+31ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"API Response status:","ms":"+33ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+25ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+33ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:26:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:27:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:27:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+6ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"API Response status:","ms":"+835ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+35ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+39ms","timestamp":"2025-12-16 11:27:00"}
+{"level":"info","message":"API Response status:","ms":"+49ms","timestamp":"2025-12-16 11:27:01"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+26ms","timestamp":"2025-12-16 11:27:01"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:27:01"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+41ms","timestamp":"2025-12-16 11:27:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+21ms","timestamp":"2025-12-16 11:27:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:28:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:28:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+7ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"API Response status:","ms":"+741ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+25ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+32ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"API Response status:","ms":"+71ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+41ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:28:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+62ms","timestamp":"2025-12-16 11:28:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:28:01"}
+{"level":"info","message":"Shutting down gracefully...","ms":"+9s","timestamp":"2025-12-16 11:28:09"}
+{"level":"info","message":"Token obtained successfully","ms":"+0ms","timestamp":"2025-12-16 11:28:15"}
+{"level":"info","message":"Database synced successfully.","ms":"+211ms","timestamp":"2025-12-16 11:28:16"}
+{"level":"info","message":"Daily device data fetch scheduled","ms":"+44ms","timestamp":"2025-12-16 11:28:16"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+44s","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+5ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+1ms","timestamp":"2025-12-16 11:29:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:29:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+12ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"API Response status:","ms":"+636ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+45ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+3ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"API Response status:","ms":"+8ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+21ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+9ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+39ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+4ms","timestamp":"2025-12-16 11:29:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:30:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:30:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+2ms","timestamp":"2025-12-16 11:30:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:30:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:30:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+7ms","timestamp":"2025-12-16 11:30:00"}
+{"level":"info","message":"API Response status:","ms":"+4s","timestamp":"2025-12-16 11:30:03"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+37ms","timestamp":"2025-12-16 11:30:03"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:30:03"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+32ms","timestamp":"2025-12-16 11:30:03"}
+{"level":"info","message":"API Response status:","ms":"+63ms","timestamp":"2025-12-16 11:30:04"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+11ms","timestamp":"2025-12-16 11:30:04"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:30:04"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+40ms","timestamp":"2025-12-16 11:30:04"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:30:04"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+56s","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+1ms","timestamp":"2025-12-16 11:31:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:31:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+6ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"API Response status:","ms":"+842ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"API Response status:","ms":"+37ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+7ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+10ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+7ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+48ms","timestamp":"2025-12-16 11:31:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+50ms","timestamp":"2025-12-16 11:31:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+26ms","timestamp":"2025-12-16 11:31:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+1ms","timestamp":"2025-12-16 11:32:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+0ms","timestamp":"2025-12-16 11:32:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+8ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"API Response status:","ms":"+750ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"API Response status:","ms":"+92ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+90ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+27ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:32:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+8ms","timestamp":"2025-12-16 11:32:01"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+50ms","timestamp":"2025-12-16 11:32:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+2ms","timestamp":"2025-12-16 11:32:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:33:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:33:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+8ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"API Response status:","ms":"+612ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+82ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"API Response status:","ms":"+45ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+18ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+58ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+41ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+23ms","timestamp":"2025-12-16 11:33:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:34:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:34:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+5ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"API Response status:","ms":"+647ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+36ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+31ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"API Response status:","ms":"+84ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+66ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:34:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+190ms","timestamp":"2025-12-16 11:34:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:34:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:35:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:35:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+9ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"API Response status:","ms":"+630ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+37ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+32ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"API Response status:","ms":"+31ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+27ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+91ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+6ms","timestamp":"2025-12-16 11:35:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:36:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:36:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+6ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"API Response status:","ms":"+749ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+36ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+32ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"API Response status:","ms":"+39ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+47ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+5ms","timestamp":"2025-12-16 11:36:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+70ms","timestamp":"2025-12-16 11:36:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+9ms","timestamp":"2025-12-16 11:36:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:37:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+0ms","timestamp":"2025-12-16 11:37:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+2ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"API Response status:","ms":"+777ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+33ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+32ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"API Response status:","ms":"+45ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+14ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+49ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+2ms","timestamp":"2025-12-16 11:37:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:38:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:38:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+5ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"API Response status:","ms":"+718ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"API Response status:","ms":"+30ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+22ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+6ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+24ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+50ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+24ms","timestamp":"2025-12-16 11:38:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:39:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:39:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+4ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"API Response status:","ms":"+613ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+29ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+2ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+31ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"API Response status:","ms":"+19ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+6ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+41ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:39:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+1ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:40:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+0ms","timestamp":"2025-12-16 11:40:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+6ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"API Response status:","ms":"+868ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+36ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+33ms","timestamp":"2025-12-16 11:40:00"}
+{"level":"info","message":"API Response status:","ms":"+160ms","timestamp":"2025-12-16 11:40:01"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+42ms","timestamp":"2025-12-16 11:40:01"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+3ms","timestamp":"2025-12-16 11:40:01"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+92ms","timestamp":"2025-12-16 11:40:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+27ms","timestamp":"2025-12-16 11:40:01"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:41:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+1ms","timestamp":"2025-12-16 11:41:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+4ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"API Response status:","ms":"+679ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"API Response status:","ms":"+12ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+19ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+8ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+24ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+117ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+13ms","timestamp":"2025-12-16 11:41:00"}
+{"level":"info","message":"Starting daily device data fetch","ms":"+59s","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Timestamps: start=1765756800, end=1765843200","ms":"+0ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Fetching data for device: 2306178462","ms":"+1ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Fetching data for device: 2401276187","ms":"+0ms","timestamp":"2025-12-16 11:42:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+0ms","timestamp":"2025-12-16 11:42:00"}
+{"0":"h","1":"t","10":"1","11":"-","12":"d","13":"e","14":"v","15":"e","16":"l","17":"o","18":"p","19":"e","2":"t","20":"r","21":".","22":"d","23":"e","24":"y","25":"e","26":"c","27":"l","28":"o","29":"u","3":"p","30":"d","31":".","32":"c","33":"o","34":"m","35":"/","36":"v","37":"1","38":".","39":"0","4":"s","40":"/","41":"d","42":"e","43":"v","44":"i","45":"c","46":"e","47":"/","48":"h","49":"i","5":":","50":"s","51":"t","52":"o","53":"r","54":"y","55":"R","56":"a","57":"w","6":"/","7":"/","8":"e","9":"u","level":"info","message":"Making request to:","ms":"+5ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"API Response status:","ms":"+891ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Device 2401276187 updated in DB","ms":"+32ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Ensured table measurements_sn_2401276187 exists with production schema","ms":"+1ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"API Response status:","ms":"+19ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Inserted 903 measurements into measurements_sn_2401276187","ms":"+14ms","timestamp":"2025-12-16 11:42:00"}
+{"level":"info","message":"Device 2306178462 updated in DB","ms":"+57ms","timestamp":"2025-12-16 11:42:01"}
+{"level":"info","message":"Ensured table measurements_sn_2306178462 exists with production schema","ms":"+3ms","timestamp":"2025-12-16 11:42:01"}
+{"level":"info","message":"Inserted 1345 measurements into measurements_sn_2306178462","ms":"+49ms","timestamp":"2025-12-16 11:42:01"}
+{"level":"info","message":"Daily fetch completed: 2 successes, 0 failures","ms":"+3ms","timestamp":"2025-12-16 11:42:01"}
+{"level":"info","message":"Shutting down gracefully...","ms":"+16s","timestamp":"2025-12-16 11:42:16"}

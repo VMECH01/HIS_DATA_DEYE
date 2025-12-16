@@ -1,0 +1,33 @@
+{
+  "name": "deye-energy-api",
+  "version": "1.0.0",
+  "description": "Deye Cloud API Integration for Energy Data",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.19",
+    "days": "^1.1.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "import-path": "^1.0.15",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^7.2.0",
+    "pg": "^8.16.3",
+    "pino": "^10.1.0",
+    "pino-http": "^11.0.0",
+    "sequelize": "^6.37.7",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

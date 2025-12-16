@@ -1,0 +1,8592 @@
+Timestamp: 2025-12-13T18:30:04.716Z
+Device: 2401276187
+Payload: {
+  "deviceSn": "2401276187",
+  "startTimestamp": 1765497600,
+  "endTimestamp": 1765584000,
+  "measurePoints": [
+    "BatteryVoltage"
+  ]
+}
+Response: {
+  "code": "1000000",
+  "msg": "success",
+  "success": true,
+  "requestId": "b7cf7dd88262311b",
+  "deviceSn": "2401276187",
+  "deviceId": 4538592,
+  "deviceType": "INVERTER",
+  "dataList": [
+    {
+      "time": "1765497637",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765497734",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765497831",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765497928",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498025",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498122",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498219",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498316",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498414",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498510",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498607",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498704",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498801",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498898",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765498995",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499093",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499189",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499286",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499384",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499481",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499578",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499675",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499772",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499869",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765499966",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500063",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500160",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500257",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500354",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500451",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500548",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500645",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500742",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500839",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765500936",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501034",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501130",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501226",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501324",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501421",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501519",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501616",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501713",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501810",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765501907",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502004",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502101",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502198",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502295",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502392",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502489",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502586",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502683",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502780",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502877",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765502975",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503071",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503168",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503265",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503362",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503460",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503557",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503654",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503751",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503848",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765503945",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504042",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504139",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504236",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504333",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504430",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504527",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504623",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504720",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504817",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765504914",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505010",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505107",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505204",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505301",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505397",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505494",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505590",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505688",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505784",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505881",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765505978",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "246.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506076",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506171",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506268",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506366",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506455",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506463",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506520",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506560",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506583",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506646",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506711",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506763",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506828",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506891",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765506954",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507017",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507070",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507309",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507434",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507531",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507628",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507726",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507823",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765507919",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508016",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508114",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508211",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508307",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508405",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508502",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508599",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508696",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508793",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508889",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765508986",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509083",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509180",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509277",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509374",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509471",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509568",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509665",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509768",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509865",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765509962",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510059",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510155",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510253",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510350",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510446",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510640",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510737",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510834",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765510931",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511028",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511127",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "247.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511224",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511321",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511418",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511515",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511612",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511709",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511806",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765511903",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512000",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512097",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512290",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512387",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512485",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "247.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512581",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512678",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512775",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512873",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765512969",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513066",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513163",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513262",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513358",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513455",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513553",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513650",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513746",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765513843",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514036",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514132",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514229",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514327",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514520",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514617",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514714",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514811",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765514908",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515005",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515102",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515199",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515296",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515393",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515490",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515587",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515684",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515781",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515878",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765515975",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516071",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516169",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516265",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516363",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516460",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516557",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516654",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516751",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516847",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765516945",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517042",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517139",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517236",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "247.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517333",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517432",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517529",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517626",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517723",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517820",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517879",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517917",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765517944",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518009",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518014",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518072",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518135",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518187",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518253",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518315",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518379",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518442",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518694",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518819",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765518916",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519013",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519110",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519207",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519304",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519401",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519498",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519595",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519692",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519789",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519886",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765519983",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520080",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520177",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520274",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520372",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520468",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520564",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520662",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520760",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520856",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765520953",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521050",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521148",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521245",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521341",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521439",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521536",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521633",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521730",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521827",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765521924",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522021",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522118",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522215",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522311",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522409",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522506",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522603",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522700",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522797",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522893",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765522991",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523088",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523185",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "247.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523282",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523379",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523476",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523573",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "248.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523670",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "249.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523768",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523865",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765523961",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524058",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524156",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524253",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524348",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524447",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524545",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524643",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524740",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524837",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765524934",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525031",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525128",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525225",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525322",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525419",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "235.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525516",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525613",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525710",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525807",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765525904",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526001",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526098",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526196",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526291",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526389",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "235.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526486",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526584",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526680",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526777",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526874",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765526972",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527068",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527165",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527263",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527360",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "235.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527457",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527554",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527651",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527748",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527844",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765527942",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528039",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528136",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528232",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528330",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528427",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528524",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528621",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528718",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528815",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528913",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765528998",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529009",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529066",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529106",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529129",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529192",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529254",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "235.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529507",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "236.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529621",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529718",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529815",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765529912",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530010",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530106",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "235.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530203",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530301",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "233.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530397",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530494",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "231.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530591",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "231.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530689",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "232.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530786",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "231.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530883",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "231.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765530980",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "230.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537037",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537099",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537165",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537228",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537278",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537343",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537406",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537471",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537534",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537586",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537649",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537712",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537777",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537840",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537891",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765537956",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538019",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538082",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538144",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538197",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538260",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538323",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538388",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538451",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538503",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538566",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538629",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538694",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538757",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538810",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538873",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765538937",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539000",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539061",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539126",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539191",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539254",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539317",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539380",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539443",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539506",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539571",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539632",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539696",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539760",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539825",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539888",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765539951",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540014",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540077",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540142",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540203",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540268",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540331",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540394",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540457",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540532",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540612",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540677",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540740",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540807",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540880",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765540956",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541038",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541122",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541204",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541288",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541372",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541453",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541537",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541611",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541674",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541736",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541800",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541863",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541938",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765541999",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542064",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542127",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542190",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542253",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542316",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542393",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542414",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542480",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "33.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765542542",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543400",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543463",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "0.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543526",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "234.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543591",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543654",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543717",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543777",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765543843",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544101",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544235",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544365",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "237.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544484",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544603",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544722",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544842",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765544961",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545080",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545200",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545306",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545402",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545500",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545596",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545693",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545790",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545888",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765545985",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546081",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546179",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "238.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546276",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546373",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546470",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546567",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546664",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546761",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546858",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765546955",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547052",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547149",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547246",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547343",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547440",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547537",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547633",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547731",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547828",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765547925",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "239.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548022",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548119",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548216",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548314",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548410",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548507",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548604",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548702",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548798",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548895",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765548993",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549090",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549187",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549284",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549381",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549478",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549575",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549672",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549769",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549866",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765549963",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550060",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550157",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550254",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550351",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550448",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550545",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550642",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550739",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550836",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765550933",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551031",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551127",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551224",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551321",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551419",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551514",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551612",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551709",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551807",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765551903",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552000",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552098",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552195",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552292",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552389",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552486",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552583",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552680",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552777",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552874",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765552971",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553068",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553165",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553262",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553359",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553456",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553553",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553650",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553748",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553844",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765553942",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554039",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554136",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554150",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554233",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554330",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554395",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554499",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554596",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554693",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554789",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554888",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765554984",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555081",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555179",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555276",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555373",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555469",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555567",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555664",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555761",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555858",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765555955",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556052",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556149",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556246",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556342",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556440",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556537",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556634",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556731",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556829",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765556925",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557022",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557120",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557217",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557314",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557411",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557508",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557605",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557702",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557799",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557896",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765557993",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558090",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558187",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558284",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558381",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558478",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558575",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558672",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558770",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558866",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765558963",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559060",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559158",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559254",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559352",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559449",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559546",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559643",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559740",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559837",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765559934",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560031",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560128",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560225",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560322",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560419",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560516",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560613",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560711",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560807",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765560904",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.80",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561002",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561099",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561196",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561293",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561390",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561487",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561584",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561681",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561778",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561875",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765561972",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562069",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562165",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562263",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562360",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562457",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562554",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562652",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562749",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562846",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765562943",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563040",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563137",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563234",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563331",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563428",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563525",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563622",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563719",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563816",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765563913",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564010",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564038",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564107",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564488",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564585",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564682",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564779",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564876",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765564973",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565070",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565167",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565264",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565361",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565458",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565556",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565652",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565749",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565847",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765565944",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566041",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566138",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566235",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566332",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566429",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566526",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566623",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566720",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566816",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765566914",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567011",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567108",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567205",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567302",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567399",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567496",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567593",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567690",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567787",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567884",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765567981",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568078",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568175",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568272",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568369",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568466",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568563",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568660",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568757",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568854",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765568951",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569048",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569145",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569242",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569339",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569436",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569533",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569630",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569727",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569824",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765569921",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570018",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570115",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570212",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570309",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570406",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570503",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570600",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570697",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570794",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570891",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765570988",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571085",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571182",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571279",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571376",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571473",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571570",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571667",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571765",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571861",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765571958",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572055",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572153",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572249",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572346",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572443",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572541",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572637",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572734",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572832",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765572929",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573025",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573122",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573220",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573317",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573413",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573510",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573608",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573705",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573801",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573898",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765573996",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574093",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574190",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574287",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574384",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574481",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574578",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574675",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574772",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574848",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574869",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574913",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574966",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765574976",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575041",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575104",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575156",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575221",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575284",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575347",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575410",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575464",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575709",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575834",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765575932",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576029",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576126",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576223",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576320",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576417",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576514",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576611",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576708",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576805",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576902",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765576999",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577096",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577193",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577291",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577388",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577484",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577581",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577678",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577776",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "240.90",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577873",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765577970",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578067",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578164",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578261",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578358",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578455",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578552",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578649",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578746",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578843",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765578940",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579037",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579134",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579231",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579328",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579425",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579522",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.70",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579619",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579716",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579813",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765579910",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580007",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580104",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580201",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580298",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580395",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580492",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580589",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.60",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580686",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580783",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580880",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765580977",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581074",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581171",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581269",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581365",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581462",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581560",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.00",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581657",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581753",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581851",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765581948",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582045",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582142",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582239",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582336",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582433",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582530",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582627",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582724",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582821",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765582918",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583015",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.50",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583112",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583209",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583306",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "242.40",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583403",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.30",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583500",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583597",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583694",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583791",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583888",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.20",
+          "key": "BatteryVoltage"
+        }
+      ]
+    },
+    {
+      "time": "1765583985",
+      "itemList": [
+        {
+          "unit": "V",
+          "value": "241.10",
+          "key": "BatteryVoltage"
+        }
+      ]
+    }
+  ]
+}
+
