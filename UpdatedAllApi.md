@@ -285,6 +285,7 @@ async function scheduleDailyDeviceDataFetch(devices) {
       if (failures > 0) {
         logger.warn('Some fetches failed; consider sending alerts');
       }
+
     } catch (err) {
       logger.error('Unexpected error in daily fetch:', err);
     }
@@ -333,3 +334,411 @@ scheduleDailyDeviceDataFetch(devices);
 - **Troubleshooting**: If DB connection fails, check `.env` and PostgreSQL logs.
 
 This should give you a fully functional, robust API for daily data fetching with PostgreSQL. If you need tweaks or more features (e.g., API endpoints for querying data), let me know!
+
+
+// // ----------------------
+// // Deye Cloud Backend Server
+// // ----------------------
+
+// import express from "express";
+// import axios from "axios";
+// import dotenv from "dotenv";
+// import crypto from "crypto";
+// import cron from "node-cron";
+// import winston from "winston";
+// import pLimit from "p-limit";
+// import { Sequelize, DataTypes } from "sequelize";
+// import { fileURLToPath } from "url";
+// import { dirname } from "path";
+
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
+
+// dotenv.config();
+
+// const app = express();
+// app.use(express.json());
+
+// const PORT = process.env.PORT || 5001;
+
+// // Configuration from .env
+// const CONFIG = {
+//   CRON_SCHEDULE: process.env.CRON_SCHEDULE || '0 0 * * *',
+//   LOG_LEVEL: process.env.LOG_LEVEL || 'info',
+//   LOG_DIR: process.env.LOG_DIR || './logs',
+//   API_TIMEOUT: parseInt(process.env.API_TIMEOUT) || 30000,
+//   CONCURRENCY_LIMIT: parseInt(process.env.CONCURRENCY_LIMIT) || 5,
+//   RETRY_ATTEMPTS: parseInt(process.env.RETRY_ATTEMPTS) || 3,
+//   RETRY_DELAY: parseInt(process.env.RETRY_DELAY) || 1000,
+// };
+
+// // Set up Winston logger (consolidated; removed Pino and fs logging)
+// const logger = winston.createLogger({
+//   level: CONFIG.LOG_LEVEL,
+//   format: winston.format.combine(
+//     winston.format.timestamp(),
+//     winston.format.errors({ stack: true }),
+//     winston.format.json()
+//   ),
+//   transports: [
+//     new winston.transports.Console(),
+//     new winston.transports.File({ filename: `${CONFIG.LOG_DIR}/daily-fetch.log` }),
+//   ],
+// });
+
+// // Ensure log directory exists
+// import fs from "fs";
+// import path from "path";
+// if (!fs.existsSync(CONFIG.LOG_DIR)) {
+//   fs.mkdirSync(CONFIG.LOG_DIR, { recursive: true });
+// }
+
+// // ----------------------
+// // Database Config -> using Sequelize ORM
+// // ----------------------
+// const sequelize = new Sequelize(
+//   process.env.DB_NAME,
+//   process.env.DB_USER,
+//   process.env.DB_PASSWORD,
+//   {
+//     host: process.env.DB_HOST,
+//     port: process.env.DB_PORT,
+//     dialect: 'postgres',
+//     logging: false, // Disable SQL logs in production
+//     pool: { max: 5, min: 0, acquire: 30000, idle: 10000 }, // Connection pooling
+//   }
+// );
+
+
+// // +-------------------+          +---------------------------------+
+// // |     Device        |          | measurements_sn_2306178462     |  (for device_sn="2306178462", device_id=2)
+// // +-------------------+          +---------------------------------+
+// // | - device_id (PK)  |          | - measurement_id (PK)          |
+// // | - device_sn       |          | - timestamp                    |
+// // | - device_type     |          | - key                          |
+// // | - createdAt       |          | - value                        |
+// // | - updatedAt       |          | - unit                         |
+// // |                   |          | - createdAt                    |
+// // |                   |          | - updatedAt                    |
+// // +-------------------+          +---------------------------------+
+// //           | (1)                           | (N)
+// //           +-------------------------------+
+// //                   Has Many (Manual Link via device_sn)
+
+// // +-------------------+          +---------------------------------+
+// // |     Device        |          | measurements_sn_2401276187     |  (for device_sn="2401276187", device_id=1)
+// // +-------------------+          +---------------------------------+
+// // | ... (same)        |          | ... (same attributes)          |
+// // +-------------------+          +---------------------------------+
+// //           | (1)                           | (N)
+// //           +-------------------------------+
+// //                   Has Many (Manual Link via device_sn)
+
+// // Devices Model
+// const Device = sequelize.define('Device', {
+//   device_id: {
+//     type: DataTypes.INTEGER,
+//     primaryKey: true,
+//     autoIncrement: true,
+//   },
+//   device_sn: {
+//     type: DataTypes.STRING,
+//     allowNull: false,
+//     unique: true,
+//   },
+//   device_type: {
+//     type: DataTypes.STRING,
+//     allowNull: false,
+//   },
+// }, {
+//   tableName: 'devices',
+//   timestamps: true,  // Maps to createdAt, updatedAt
+// });
+
+// // DeviceMeasurements Model
+// const DeviceMeasurement = sequelize.define('DeviceMeasurement', {
+//   measurement_id: {
+//     type: DataTypes.INTEGER,
+//     primaryKey: true,
+//     autoIncrement: true,
+//   },
+//   device_id: {
+//     type: DataTypes.INTEGER,
+//     allowNull: false,
+//     references: { model: Device, key: 'device_id' },
+//   },
+//   timestamp: {
+//     type: DataTypes.DATE, // Store as Date for easier querying
+//     allowNull: false,
+//   },
+//   key: {
+//     type: DataTypes.STRING,
+//     allowNull: false, // e.g., "BatteryVoltage"
+//   },
+//   value: {
+//     type: DataTypes.DECIMAL(10, 2), // Adjust precision as needed
+//     allowNull: false,
+//   },
+//   unit: {
+//     type: DataTypes.STRING,
+//     allowNull: false, // e.g., "V"
+//   },
+// }, {
+//   tableName: 'device_measurements',
+//   timestamps: true,
+//   indexes: [
+//     { fields: ['device_id', 'timestamp'] }, // For efficient time-series queries
+//     { fields: ['key'] }, // For filtering by measurement type
+//   ],
+// });
+
+// // Define Relationships
+// Device.hasMany(DeviceMeasurement, { foreignKey: 'device_id' });
+// DeviceMeasurement.belongsTo(Device, { foreignKey: 'device_id' });
+
+// // Sync DB
+// async function syncDB() {
+//   try {
+//     await sequelize.authenticate();
+//     await sequelize.sync({ alter: true }); // Use { force: true } for dev resets
+//     logger.info('Database synced successfully.');
+//   } catch (err) {
+//     logger.error('Database sync error:', err);
+//     throw err; // Throw to prevent server start on DB failure
+//   }
+// }
+
+// // ----------------------
+// // Deye Cloud Config
+// // ----------------------
+// const {
+//   DEYE_BASE_URL,
+//   DEYE_APP_ID,
+//   DEYE_APP_SECRET,
+//   DEYE_EMAIL,
+//   DEYE_PASSWORD
+// } = process.env;
+
+// let accessToken = null;
+// let tokenExpiry = 0;
+
+// // Obtain Access Token
+// async function obtainToken() {
+//   try {
+//     const hashedPassword = crypto
+//       .createHash("sha256")
+//       .update(DEYE_PASSWORD)
+//       .digest("hex");
+
+//     const url = `${DEYE_BASE_URL}/account/token?appId=${DEYE_APP_ID}`;
+//     const response = await axios.post(
+//       url,
+//       {
+//         appSecret: DEYE_APP_SECRET,
+//         email: DEYE_EMAIL,
+//         password: hashedPassword,
+//         companyId: "0", // for personal accounts
+//       },
+//       { headers: { "Content-Type": "application/json" } }
+//     );
+
+//     if (response.data?.accessToken) {
+//       accessToken = response.data.accessToken;
+//       tokenExpiry = Date.now() + (response.data.expiresIn || 3600) * 1000;
+//       logger.info("Token obtained successfully");
+//     } else {
+//       logger.error("Failed to get token:", response.data);
+//       throw new Error("Token fetch failed");
+//     }
+//   } catch (err) {
+//     logger.error("Token fetch error:", err.response?.data || err.message);
+//     throw err;
+//   }
+// }
+
+// // Ensure valid token (with refresh logic)
+// async function ensureToken() {
+//   if (!accessToken || Date.now() > tokenExpiry - 60000) { // Refresh 1 min early
+//     await obtainToken();
+//   }
+// }
+
+// // Helper POST request (updated for timeout)
+// async function deyePost(endpoint, payload = {}, options = {}) {
+//   await ensureToken();
+
+//   const url = `${DEYE_BASE_URL}${endpoint}`;
+//   const headers = {
+//     "Content-Type": "application/json",
+//     Authorization: `Bearer ${accessToken}`
+//   };
+
+//   logger.info("Making request to:", url);
+//   // Avoid logging full payload/token for security
+
+//   try {
+//     const response = await axios.post(url, payload, {
+//       headers,
+//       timeout: options.timeout || 10000
+//     });
+
+//     logger.info("API Response status:", response.status);
+//     return response.data;
+//   } catch (err) {
+//     logger.error(`Deye API Error [${endpoint}]:`, err.response?.data || err.message);
+//     throw err;
+//   }
+// }
+
+// // ----------------------
+// // API Routes
+// // ----------------------
+
+// // Health Check
+// app.get("/statusCheck", (req, res) => {
+//   logger.info('/statusCheck called');
+//   setTimeout(() => {
+//     res.json({ message: "Hello", status: "OK" });
+//   }, 3000);
+// });
+
+// // Get all stations
+// app.get("/api/stations", async (req, res) => {
+//   logger.info('/api/stations called');
+//   try {
+//     const data = await deyePost("/station/list", {});
+//     res.json({ success: true, data: data.data || data.stationList || [] });
+//   } catch (err) {
+//     logger.error("Stations API error:", err);
+//     res.status(500).json({
+//       success: false,
+//       error: err.response?.data || err.message,
+//     });
+//   }
+// });
+
+// // Devices array
+// const devices = [
+//   { deviceSn: "2306178462", measurePoints: ["BatteryVoltage"] },
+//   { deviceSn: "2401276187", measurePoints: ["BatteryVoltage"] },
+// ];
+
+// // Utility: Calculate timestamps
+// function getTimestamps() {
+//   const now = new Date();
+//   const endTimestamp = Math.floor(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 1000);
+//   const startTimestamp = endTimestamp - (24 * 60 * 60);
+//   return { startTimestamp, endTimestamp };
+// }
+
+// // Fetch and store data for a single device with retries
+// async function fetchDeviceData(device) {
+//   const { deviceSn, measurePoints } = device;
+//   const { startTimestamp, endTimestamp } = getTimestamps();
+//   const payload = { deviceSn, startTimestamp, endTimestamp, measurePoints };
+
+//   let attempts = 0;
+//   while (attempts < CONFIG.RETRY_ATTEMPTS) {
+//     try {
+//       logger.info(`Fetching data for device: ${deviceSn}`);
+//       const response = await deyePost("/device/historyRaw", payload, { timeout: CONFIG.API_TIMEOUT });
+
+//       // Validate response
+//       if (!response || response.code !== "1000000" || !response.dataList) {
+//         throw new Error(`Invalid API response: ${JSON.stringify(response)}`);
+//       }
+
+//       // Upsert Device
+//       const [dbDevice, created] = await Device.upsert({
+//         device_sn: response.deviceSn,
+//         device_type: response.deviceType,
+//       });
+//       logger.info(`Device ${deviceSn} ${created ? 'created' : 'updated'} in DB`);
+
+//       // Prepare Measurements for bulk insert (chunk if large)
+//       const measurements = [];
+//       response.dataList.forEach(dataPoint => {
+//         const timestamp = new Date(parseInt(dataPoint.time) * 1000);
+//         dataPoint.itemList.forEach(item => {
+//           measurements.push({
+//             device_id: dbDevice.device_id,
+//             timestamp,
+//             key: item.key,
+//             value: parseFloat(item.value),
+//             unit: item.unit,
+//           });
+//         });
+//       });
+
+//       if (measurements.length > 0) {
+//         // Insert in chunks to avoid DB limits
+//         const chunkSize = 1000;
+//         for (let i = 0; i < measurements.length; i += chunkSize) {
+//           await DeviceMeasurement.bulkCreate(measurements.slice(i, i + chunkSize), { ignoreDuplicates: true });
+//         }
+//         logger.info(`Inserted ${measurements.length} measurements for ${deviceSn}`);
+//       } else {
+//         logger.warn(`No measurements to insert for ${deviceSn}`);
+//       }
+
+//       return response;
+//     } catch (err) {
+//       attempts++;
+//       logger.warn(`Attempt ${attempts} failed for ${deviceSn}: ${err.message}`);
+//       if (attempts >= CONFIG.RETRY_ATTEMPTS) {
+//         logger.error(`Failed to fetch/store data for ${deviceSn} after ${CONFIG.RETRY_ATTEMPTS} attempts`, { error: err.message });
+//         throw err;
+//       }
+//       // Exponential backoff
+//       await new Promise(resolve => setTimeout(resolve, CONFIG.RETRY_DELAY * Math.pow(2, attempts - 1)));
+//     }
+//   }
+// }
+
+// // Schedule daily device data fetch
+// async function scheduleDailyDeviceDataFetch(devices) {
+//   await syncDB(); // Sync DB on startup
+
+//   // Schedule the job
+//   cron.schedule(CONFIG.CRON_SCHEDULE, async () => {
+//     logger.info('Starting daily device data fetch');
+//     const { startTimestamp, endTimestamp } = getTimestamps();
+//     logger.info(`Timestamps: start=${startTimestamp}, end=${endTimestamp}`);
+
+//     const limit = pLimit(CONFIG.CONCURRENCY_LIMIT);
+//     const promises = devices.map(device => limit(() => fetchDeviceData(device)));
+
+//     try {
+//       const results = await Promise.allSettled(promises);
+//       const successes = results.filter(r => r.status === 'fulfilled').length;
+//       const failures = results.filter(r => r.status === 'rejected').length;
+//       logger.info(`Daily fetch completed: ${successes} successes, ${failures} failures`);
+//       if (failures > 0) {
+//         logger.warn('Some fetches failed; consider sending alerts');
+//       }
+//     } catch (err) {
+//       logger.error('Unexpected error in daily fetch:', err);
+//     }
+//   });
+
+//   logger.info('Daily device data fetch scheduled');
+// }
+
+// // Graceful shutdown
+// process.on('SIGINT', async () => {
+//   logger.info('Shutting down gracefully...');
+//   await sequelize.close();
+//   process.exit(0);
+// });
+
+// // ----------------------
+// // Start Server
+// // ----------------------
+// app.listen(PORT, async () => {
+//   console.log(`Server running on port ${PORT}`);
+//   await obtainToken(); // Ensure token is ready
+//   await scheduleDailyDeviceDataFetch(devices); // Start fetching after DB sync
+// });
+
+
+
